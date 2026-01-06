@@ -1,10 +1,15 @@
-test = "home nay an gi"
-print(test[2:1])
+def greet(first_name, last_name):
+    print(f"Hi there {first_name} {last_name}")
+    print("Welcome,aboard")
 
-print(len(test))
-print(test[0])
-print(test[1])
-print(test[-1])
-print(test[0:3])
-print(test[2:1])
-print(test[:])
+
+greet("Huy","Ha")
+
+# 1- perfrom a task
+# 2- Return a value
+
+def get_greeting(name):
+    return f"Hi {name}"
+
+message = get_greeting("Huy")
+print(message)
